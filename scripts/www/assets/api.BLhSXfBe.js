@@ -1,0 +1,1 @@
+import{p as a,q as s,m as e}from"./index-DM_wP4j0.js";function t(s,t,n={},r={}){return new Promise((i,o)=>{a({url:`${e("apiBaseUrl")||"http://127.0.0.1:8000"}${t}`,method:s,data:n,header:{"Content-Type":"application/json",...r},success:a=>i(a.data),fail:a=>o(a)})})}function n(a){s("apiBaseUrl",a)}export{t as r,n as s};
